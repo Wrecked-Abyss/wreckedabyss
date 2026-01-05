@@ -1,3 +1,11 @@
+/**
+ * 1. EMAILJS INITIALIZATION
+ */
+(function() {
+    emailjs.init({
+        publicKey: "mj4_klMqUt_du4lXS", // Hard-code your actual key here
+    });
+})();
 
 
 /**
@@ -81,19 +89,6 @@ document.addEventListener('DOMContentLoaded', type);
  */
 
 
-/**
- * 1. EMAILJS INITIALIZATION
- */
-(function() {
-    emailjs.init({
-        publicKey: "mj4_klMqUt_du41XS", // Hard-code your actual key here
-    });
-})();
-
-
-
-
-
 const contactForm = document.getElementById('contact-form');
 if (contactForm) {
     contactForm.addEventListener('submit', function(event) {
@@ -135,6 +130,7 @@ if (contactForm) {
             });
     });
 }
+
 
 
 
