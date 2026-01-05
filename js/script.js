@@ -3,7 +3,7 @@
  */
 (function() {
     emailjs.init({
-      publicKey: "mZKrA0J4vYS_9o5-M", 
+      publicKey:"mj4_klMqOt_du4lXS", 
     });
 })();
 
@@ -127,4 +127,5 @@ if (contactForm) {
             });
     });
 }
+
 
