@@ -1,11 +1,4 @@
-/**
- * 1. EMAILJS INITIALIZATION
- */
-(function() {
-    emailjs.init({
-        publicKey: "mj4_klMqUt_du41XS", // Hard-code your actual key here
-    });
-})();
+
 
 /**
  * 2. NAVIGATION SCROLL EFFECT
@@ -86,6 +79,21 @@ document.addEventListener('DOMContentLoaded', type);
 /**
  * 5. CONSOLIDATED CONTACT FORM SUBMISSION
  */
+
+
+/**
+ * 1. EMAILJS INITIALIZATION
+ */
+(function() {
+    emailjs.init({
+        publicKey: "mj4_klMqUt_du41XS", // Hard-code your actual key here
+    });
+})();
+
+
+
+
+
 const contactForm = document.getElementById('contact-form');
 if (contactForm) {
     contactForm.addEventListener('submit', function(event) {
@@ -127,6 +135,7 @@ if (contactForm) {
             });
     });
 }
+
 
 
 
