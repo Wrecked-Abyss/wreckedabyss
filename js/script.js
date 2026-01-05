@@ -3,7 +3,7 @@
  */
 (function() {
     emailjs.init({
-        publicKey: "mj4_klMqUt_du4lXS", // Hard-code your actual key here
+        publicKey: "mj4_klMqOt_du4lXS", // Hard-code your actual key here
     });
 })();
 
@@ -130,6 +130,7 @@ if (contactForm) {
             });
     });
 }
+
 
 
 
