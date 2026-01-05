@@ -1,0 +1,97 @@
+.writeups-section {
+    background-color: #000500df;
+    padding: 100px 10%;
+    color: white;
+}
+
+.writeups-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 equal columns */
+    gap: 30px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.writeup-card {
+    background: #ffffff;
+    border-radius: 20px;
+    overflow: hidden;
+    border: 1px solid #eee;
+    display: flex;
+    flex-direction: column;
+    min-height: 550px; /* Makes them tall */
+    transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+/* Hover Effect */
+.writeup-card:hover {
+    transform: translateY(-15px);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.08);
+    border-color: #00FF00;
+}
+
+.card-image-placeholder {
+    height: 200px;
+    background: #1a1a1a;
+    color: #333;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 4rem;
+    font-weight: 800;
+}
+
+.card-body {
+    padding: 40px 30px;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.category {
+    font-size: 0.8rem;
+    color: #0ea00e;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-bottom: 15px;
+    letter-spacing: 1px;
+}
+
+.card-body h4 {
+    font-size: 1.6rem;
+    color: #1a1a1a;
+    margin-bottom: 20px;
+    line-height: 1.3;
+}
+
+.card-body p {
+    color: #666;
+    line-height: 1.7;
+    margin-bottom: auto; /* Pushes button to bottom */
+}
+
+.btn-read {
+    margin-top: 30px;
+    padding: 12px 25px;
+    background: #0ea00e;
+    color: white;
+    text-decoration: none;
+    border-radius: 50px;
+    text-align: center;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+.btn-read:hover {
+    background: #00ff00;
+    color: black;
+}
+
+/* Responsive Table/Mobile */
+@media (max-width: 992px) {
+    .writeups-grid { grid-template-columns: 1fr 1fr; } /* 2 cards */
+}
+
+@media (max-width: 600px) {
+    .writeups-grid { grid-template-columns: 1fr; } /* 1 card */
+}

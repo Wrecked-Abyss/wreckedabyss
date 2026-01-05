@@ -1,0 +1,90 @@
+* { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Inter', sans-serif; }
+body { background: #000; color: #c9d1d9; line-height: 1.6; }
+
+.code-section {
+    padding: 10px 10%;
+    padding-bottom: 100px;
+    background: #000500df; /* GitHub Dark theme background */
+    color: white;
+}
+
+#labs {
+    padding-top: 0%;
+}
+
+
+
+
+
+.logo span, h1 span, .section-title span { color: #00FF00; }
+
+.hero { text-align: center; padding: 100px 10%;
+    padding-bottom: 10px;
+}
+.hero h1 { font-size: 3rem; text-transform: uppercase; }
+
+.container { max-width: 1200px; margin: 0 auto; padding: 0 30px; 
+    padding-top: 55px;
+}
+
+.section-title { font-size: 2rem; margin-bottom: 30px; text-align: left; }
+
+/* Grid for 30 labs */
+/* Update your grid/list container */
+.lab-grid { 
+    display: flex; 
+    flex-direction: column; /* Stack them vertically */
+    gap: 10px;             /* This controls the space between MFA and SQL */
+    list-style: none; 
+}
+
+/* Ensure no extra margins are pushing them apart */
+.lab-grid li {
+    margin-bottom: 0px; 
+}
+
+/* Adjust the card padding if the boxes themselves look too tall */
+.lab-card {
+    display: block; 
+    padding: 15px 20px;   /* First number is top/bottom padding */
+    background: #161b22; 
+    border: 1px solid #30363d;
+    border-radius: 8px;
+    text-decoration: none;
+    color: #fff;
+}
+.lab-card:hover { border-color: #00FF00; transform: translateY(-5px); }
+
+.lab-list-section { 
+    padding: 20px 10% 60px; /* Reduced top padding from 100px/120px to 20px */
+}
+#header {
+    padding-bottom: 0%;
+    padding-top: 100px;
+}
+
+/* Write-up Window */
+.code-window { background: #161b22; border: 1px solid #30363d; border-radius: 12px; overflow: hidden; }
+.window-header {
+    background: #21262d;
+    padding: 12px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.code-body { padding: 40px; 
+    padding-top: 0%;
+}
+
+
+#markdown-content p { margin-bottom: 15px; text-align: justify; }
+#markdown-content img { max-width: 100%; border: 2px solid #000; margin: 20px 0; border-radius: 5px; }
+
+.copy-button { background: #30363d; color: #fff; border: 1px solid #8b949e; padding: 8px 15px; border-radius: 6px; cursor: pointer; }
+.back-button { background: #30363d; color: #fff; border: 1px solid #8b949e; padding: 3px 15px; border-radius: 6px; cursor: pointer; }
+.back-button:hover { 
+    color: #00FF00;
+    border-color: #00FF00;
+ }
+
+

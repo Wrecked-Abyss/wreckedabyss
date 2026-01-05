@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wrecked Abyss</title>
+    <link rel="stylesheet" href="style/nav.css">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/writeup.css">
+    <link rel="stylesheet" href="style/script.css">
+    <link rel="stylesheet" href="style/about.css">
+    <link rel="stylesheet" href="style/contact.css">
+    <link rel="stylesheet" href="style/footer.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <section id="home" class="home-section">
+        <div class="hero-container">
+            <div class="bg-image"></div>
+
+            <div class="overlay"></div>
+
+            <nav>
+                <div class="logo">Wrecked <span>Abyss</span></div>
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#writeups">Write-ups</a></li>
+                    <li><a href="#scripts">Custom Scripts</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact" class="btn-nav">Contact</a></li>
+                </ul>
+            </nav>
+
+            <div class="content">
+                <h1>Resilience <span>Through</span> Intelligence</h1>
+                <p class="hero-title" >
+                    System Status: <span id="typewriter"></span><span class="cursor">|</span>
+                </p>
+                <p id="home-page-p">Hackers hack systems; professionals hack behavior. True security lies in outsmarting the threat before it arrives.</p>
+                <div class="buttons">
+                    <a href="#writeups" class="btn btn-primary">write-ups</a>
+                    <a href="#scripts" class="btn btn-secondary">custom scripts</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="writeups" class="writeups-section">
+        <div class="container">
+            <h2 class="section-title">Latest <span>Writeups</span></h2>
+            
+            <div class="writeups-grid">
+                <div class="writeup-card">
+                    <div class="card-image-placeholder">THM</div>
+                    <div class="card-body">
+                        <span class="category">TRYHACKME</span>
+                        <h4>TryHackMe Write-ups</h4>
+                        <p>These walkthroughs bridge the gap between theory and practice, serving as vital portfolios for aspiring penetration testers.</p>
+                        <a href="writeup-index.html#thm-writeups" class="btn-read">Read Article</a>
+                    </div>
+                </div>
+
+                <div class="writeup-card">
+                    <div class="card-image-placeholder">HTB</div>
+                    <div class="card-body">
+                        <span class="category">HackTheBox</span>
+                        <h4>HackTheBox Write-ups</h4>
+                        <p>HTB writeups are technical guides documenting the path from initial reconnaissance to full system compromise.</p>
+                        <a href="writeup-index.html#htb-writeups" class="btn-read">Read Article</a>
+                    </div>
+                </div>
+
+                <div class="writeup-card">
+                    <div class="card-image-placeholder">ALL</div>
+                    <div class="card-body">
+                        <span class="category">All Write-ups</span>
+                        <h4>All Write-ups</h4>
+                        <p>A professional writeup usually follows the standard penetration testing lifecycle.</p>
+                        <a href="writeup-index.html#all-writeups" class="btn-read">Read Article</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="scripts" class="scripts-section">
+        <div class="container">
+            <h2 class="section-title">Top 10 <span>Python</span> Scripts</h2>
+            <a href="script-index.html" class="btn btn-primary">All Scripts -></a>
+            <p class="section-subtitle">Custom-built scripts and methodologies for testing the most critical web risks.</p>
+            
+            
+            <div class="scripts-grid">
+                <a href="script-template.html?file=MFA_code_bruteforce.py">
+                    <div class="script-card">
+                        <div class="terminal-header"><span></span><span></span><span></span></div>
+                        <div class="script-content">
+                            <h4>S01: MFA Code Brute-force</h4>
+                            <p>Try all possible MFA code from 0000 to 9999.</p>
+                            <!-- <code>run script --type=access_control</code> -->
+                        </div>
+                    </div>
+                </a>
+
+                <a href="script-template.html?file=Response_time.py">
+                    <div class="script-card">
+                        <div class="terminal-header"><span></span><span></span><span></span></div>
+                        <div class="script-content">
+                            <h4>S02: Get Response Time</h4>
+                            <p>Get response time by using different IP.</p>
+                            <!-- <code>check_crypto --target=internal_api</code> -->
+                        </div>
+                    </div>
+                </a>
+
+                <a href="script-template.html?file=To_Be_Uploaded.py">
+                    <div class="script-card">
+                        <div class="terminal-header"><span></span><span></span><span></span></div>
+                        <div class="script-content">
+                            <h4>S03: Injection</h4>
+                            <p>Automated SQLi and XSS payloads for input sanitization testing.</p>
+                            <!-- <code>payload_inject --db=sql --verbose</code> -->
+                        </div>
+                    </div>
+                </a>
+
+                <a href="script-template.html?file=To_Be_Uploaded.py">
+                    <div class="script-card">
+                        <div class="terminal-header"><span></span><span></span><span></span></div>
+                        <div class="script-content">
+                            <h4>A04: Insecure Design</h4>
+                            <p>Threat modeling analysis for architectural flaws.</p>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="script-template.html?file=To_Be_Uploaded.py">
+                    <div class="script-card">
+                        <div class="terminal-header"><span></span><span></span><span></span></div>
+                        <div class="script-content">
+                            <h4>A05: Security Misconfig</h4>
+                            <p>Audits default passwords and open cloud buckets.</p>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="script-template.html?file=To_Be_Uploaded.py">
+                    <div class="script-card">
+                        <div class="terminal-header"><span></span><span></span><span></span></div>
+                        <div class="script-content">
+                            <h4>A06: Vulnerable Components</h4>
+                            <p>SCA analysis of third-party libraries and dependencies.</p>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="script-template.html?file=To_Be_Uploaded.py">
+                    <div class="script-card">
+                        <div class="terminal-header"><span></span><span></span><span></span></div>
+                        <div class="script-content">
+                            <h4>A07: Identification & Auth</h4>
+                            <p>Brute force protection and session timeout validation.</p>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="script-template.html?file=To_Be_Uploaded.py">
+                    <div class="script-card">
+                        <div class="terminal-header"><span></span><span></span><span></span></div>
+                        <div class="script-content">
+                            <h4>A08: Software & Data Integrity</h4>
+                            <p>CI/CD pipeline and auto-update verification.</p>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="script-template.html?file=To_Be_Uploaded.py">
+                    <div class="script-card">
+                        <div class="terminal-header"><span></span><span></span><span></span></div>
+                        <div class="script-content">
+                            <h4>A09: Logging & Monitoring</h4>
+                            <p>SIEM health checks and forensic audit trail logs.</p>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="script-template.html?file=To_Be_Uploaded.py">
+                    <div class="script-card">
+                        <div class="terminal-header"><span></span><span></span><span></span></div>
+                        <div class="script-content">
+                            <h4>A10: SSRF</h4>
+                            <p>Testing server-side request forgery in cloud environments.</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+    <section id="about" class="about-section">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-text">
+                    <h2 class="section-title">About <span>The Developer</span></h2>
+                    <p>
+                        I am a dedicated <b>Cybersecurity Enthusiast</b> with a passion for uncovering vulnerabilities and building secure systems. My journey started with a curiosity for how things work under the hood, leading me deep into the worlds of <b>OSINT</b>, <b>Python scripting</b>, and <b>Network Security</b>.
+                    </p>
+                    <p>
+                        I spend my time participating in CTFs, documenting my findings, and exploring the OSINT Framework. I believe that security is a mindset of continuous learning and ethical exploration.
+                    </p>
+                    
+                    <div class="pillars">
+                        <div class="pillar">
+                            <strong>Analyze:</strong> Deep-dive threat assessment.
+                        </div>
+                        <div class="pillar">
+                            <strong>Defend:</strong> Implementation of Zero-Trust architecture.
+                        </div>
+                        <div class="pillar">
+                            <strong>Respond:</strong> Rapid incident recovery and forensics.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="about-stats">
+                    <div class="stat-card">
+                        <h3>10+</h3>
+                        <p>Custom Scripts</p>
+                    </div>
+                    <div class="stat-card">
+                        <h3>3+</h3>
+                        <p>Write-ups</p>
+                    </div>
+                    <div class="stat-card">
+                        <h3>30+</h3>
+                        <p>VM Boxes Pawned</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <div class="contact-header">
+                <h2>Secure Inquiry</h2>
+                <p>Have a vulnerability to report or a project in mind? Send an message.</p>
+            </div>
+            
+            <div class="contact-wrapper">
+                <div class="contact-info">
+                    <div class="info-item">
+                        <h4>Email</h4>
+                        <p>wreckedabyss@gmail.com</p>
+                    </div>
+                    <div class="info-item">
+                        <h4>Social Media</h4>
+                        <p>You can contact me through social media by using link provided in the footer</p>
+                    </div>
+                </div>
+
+                <form id="contact-form" class="contact-form">
+                    <div class="input-group">
+                        <input type="text" id="user_name" placeholder="Your Name" required>
+                        <input type="email" id="user_email" placeholder="Your Email" required>
+                    </div>
+                    <input type="text" id="subject" placeholder="Subject" required>
+                    <textarea id="message" placeholder="Your Message..." rows="5" required></textarea>
+                    <button type="submit" class="btn btn-primary" id="submit-btn">Transmit Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+</body>
+<footer class="site-footer">
+        <div class="footer-content">
+            <div class="footer-section about">
+                <h3>WRECKED <span>ABYSS</span></h3>
+                <p>Specializing in penetration testing, threat intelligence, and digital forensics.</p>
+            </div>
+            <div class="footer-section links">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="#">Security Blog</a></li>
+                    <li><a href="#">Certifications</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                </ul>
+            </div>
+            <div class="footer-section social">
+                <h4>Connect</h4>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/wrecked-abyss-9a23593a2/" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://github.com/Wrecked-Abyss" title="GitHub"><i class="fab fa-github"></i></a>
+                    
+                    <a href="https://www.youtube.com/channel/UCx5Q-lA1W73HtG3FmMsf0aQ" title="YouTube"><i class="fab fa-youtube"></i></a>
+                    
+                    <a href="https://www.instagram.com/wreckedabyss/" title="Instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="https://x.com/Wrecked_Abyss" title="Twitter"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            &copy; 2025 Cybersecurity Professional | Protected by Encryption
+        </div>
+</footer>
+
+<script src="js/script.js"></script>
+
+</html>

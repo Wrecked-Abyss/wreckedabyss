@@ -1,0 +1,83 @@
+.contact-section {
+    position: relative; 
+    z-index: 1; /* Ensures it stays above the fixed image */
+    background: #000500df; /* A solid dark color */
+    padding: 100px 10%;
+    color: white;
+}
+
+.contact-header {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.contact-header h2 {
+    font-size: 2.5rem;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.contact-header p {
+    color: #888;
+}
+
+.contact-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 50px;
+}
+
+.info-item {
+    margin-bottom: 30px;
+}
+
+.info-item h4 {
+    color: #00ff00; /* Security Blue */
+    margin-bottom: 5px;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+}
+
+/* Form Styling */
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.input-group {
+    display: flex;
+    gap: 20px;
+}
+
+.contact-form input, .contact-form textarea {
+    width: 100%;
+    padding: 15px;
+    background: #111;
+    border: 1px solid #333;
+    color: white;
+    border-radius: 5px;
+    outline: none;
+    transition: 0.3s;
+}
+
+.contact-form input:focus, .contact-form textarea:focus {
+    border-color: #00ff00;
+    box-shadow: 0 0 10px rgba(0, 123, 255, 0.2);
+}
+
+.contact-form .btn {
+    align-self: flex-start;
+    cursor: pointer;
+    border: none;
+}
+
+/* Mobile Fix */
+@media (max-width: 768px) {
+    .contact-wrapper {
+        grid-template-columns: 1fr;
+    }
+    .input-group {
+        flex-direction: column;
+    }
+}

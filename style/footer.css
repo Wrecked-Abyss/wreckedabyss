@@ -1,0 +1,128 @@
+
+footer {
+    position: relative;
+    z-index: 1;
+    background: #111; /* Solid footer color */
+    padding: 50px 0 20px;
+    color: white;
+}
+
+.footer-content {
+    max-width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+.footer-section {
+    flex: 1;
+    margin-bottom: 30px;
+    min-width: 250px;
+}
+
+.footer-section h3 span {
+    color: #00FF00; /* Accent color for the logo */
+}
+
+.footer-section h4 {
+    margin-bottom: 20px;
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.footer-section p {
+    color: #999;
+    line-height: 1.6;
+}
+
+.footer-section ul {
+    list-style: none;
+}
+
+.footer-section ul li {
+    margin-bottom: 10px;
+}
+
+.footer-section ul li a, .social-icons a {
+    color: #999;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.footer-section ul li a:hover, .social-icons a:hover {
+    color: #fff;
+}
+
+.social-icons {
+    display: flex;
+    gap: 15px;
+}
+
+.footer-bottom {
+    text-align: center;
+    padding-top: 30px;
+    margin-top: 30px;
+    border-top: 1px solid #222;
+    color: #555;
+    font-size: 0.9rem;
+}
+
+
+
+
+
+
+
+.hero-title {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#typewriter {
+    color: #00FF00; /* Your theme blue */
+    font-family: 'Courier New', Courier, monospace; /* Terminal font */
+}
+
+.cursor {
+    color: #00FF00;
+    animation: blink 0.7s infinite;
+}
+
+@keyframes blink {
+    0% { opacity: 1; }
+    50% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+
+/* This snaps the lab boxes together */
+.lab-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 10px !important; /* Forces a small 10px gap */
+}
+
+.lab-grid li {
+    margin-bottom: 0 !important;
+    padding: 0 !important;
+}
+
+.social-icons {
+    display: flex;
+    gap: 20px;
+    font-size: 1.5rem; /* Makes icons bigger */
+    margin-top: 10px;
+}
+
+.social-icons a {
+    color: #c9d1d9; /* Default gray color */
+    transition: 0.3s ease;
+    text-decoration: none;
+}
+
+.social-icons a:hover {
+    color: #00FF00; /* Hacker Green on hover */
+    transform: translateY(-3px); /* Subtle float effect */
+}

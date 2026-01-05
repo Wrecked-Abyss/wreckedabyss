@@ -1,0 +1,32 @@
+#markdown-content h1 {
+    text-align: center;
+}
+
+#markdown-content h2 {
+    text-align: left;
+}
+
+#markdown-content h3 {
+    text-align: left;
+}
+
+#markdown-content code {
+    text-align: left;
+    font-size: large;
+    color: white;
+}
+#markdown-content ul {
+    padding-left: 10%;
+}
+#markdown-content ol {
+    padding-left: 10%;
+}
+
+#markdown-content img {
+    max-width: 100%; 
+    height: auto; 
+    display: block; 
+    margin: 25px auto;
+    border: 2px solid #000; 
+    border-radius: 8px;
+}
