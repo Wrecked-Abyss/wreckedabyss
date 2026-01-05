@@ -106,7 +106,6 @@ function type() {
 // Start the effect
 document.addEventListener('DOMContentLoaded', type);
 
-<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
 
 
 (function(){
@@ -137,3 +136,4 @@ document.getElementById('contact-form').addEventListener('submit', function(even
             alert('Failed to send message: ' + JSON.stringify(error));
          });
    });
+
